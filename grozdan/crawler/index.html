@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>get url and title</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<form action="crawler.php" method="post">
+				<section>
+					<label for="link">enter your link  - </label>	<!-- need this to be inline -->
+					<input type="text" name="link" value="https://www.amazon.co.uk/" placeholder="link" tabindex="1">	<!-- need this to be inline -->
+				</section>
+				<section>
+					<label for="tag">enter desired tag  - </label>	<!-- need this to be inline -->
+					<input type="text" name="tag" value="a" placeholder="tag" tabindex="2">	<!-- need this to be inline -->
+				</section>
+				<section>
+					<input type="submit" value="crawl">
+				</section>
+			</form>
+		</div>
+	</body>
+</html>
